@@ -15,10 +15,10 @@ pip install psycopg2
 Utilisation
 Pour utiliser le script, exécutez-le à l'aide de Python avec les arguments appropriés depuis la ligne de commande. Voici les différentes commandes disponibles :
 
-add : Ajoute une nouvelle tâche à la base de données. Vous devrez fournir une description et un statut pour la nouvelle tâche.
-selectAll : Récupère toutes les tâches de la base de données et les affiche.
-update : Met à jour une tâche existante dans la base de données. Vous devrez fournir l'ID de la tâche à mettre à jour, ainsi que la nouvelle description et le nouveau statut.
-delete : Supprime une tâche de la base de données. Vous devrez fournir l'ID de la tâche à supprimer.
+- add : Ajoute une nouvelle tâche à la base de données. Vous devrez fournir une description et un statut pour la nouvelle tâche.
+- selectAll : Récupère toutes les tâches de la base de données et les affiche.
+- update : Met à jour une tâche existante dans la base de données. Vous devrez fournir l'ID de la tâche à mettre à jour, ainsi que la nouvelle description et le nouveau statut.
+- delete : Supprime une tâche de la base de données. Vous devrez fournir l'ID de la tâche à supprimer.
 
 Voici un exemple d'utilisation :
 
@@ -29,7 +29,7 @@ Description de la tâche : Faire les courses
 Statut de la tâche (En cours/En attente/Terminé) : En cours
 ```
 
-resulat pylint :
+resultat pylint :
 ```bash
 pylint task_manager.py
 ************* Module task_manager
